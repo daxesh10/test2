@@ -1,0 +1,41 @@
+
+1)
+
+the completeness of a reverse engineering process refers to the level of detail providied in the project or 
+in other words the details of abstraction provided in abstartion level.as the completeness decrease as the 
+abstraction level increase and vice versa as abstraction level increase completeness decreases
+for exapmle a project in company they already have the source code so it is easy to develope a complete design
+representaion and Architecture of the desing representaion can also be achived and derived
+but it is difficult to make make all the UML models ie. data ﬂow diagrams or entity-relationship models
+for the same.
+
+for achiving completeness not only abstraction plays important role but moreover the 
+interactivty is also esential,as interaactivity is nothing but degree to which humans 
+are interacting to system using automated tools to create effective reverse engineering 
+process.if interactivty is not achived and abstarction level increases then completeness will suffer
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+2)
+
+# forward eng:
+it is the set of activites that consume the products and atrifacts(ie. code) 
+from a derived or exsisting software in order to match the new requirements for new system
+
+forward engineering is also called renovation it basically renovation of the design inforamtion
+from exsisting software and uses this inforamtion to alter the exsisting software in an effort to 
+improve the quality. it not only adds the new functionality or improves the functionality 
+but its boundaries encompasses  dealing with desing or architechure of the system.
+
+
+
+# restructurin :
+
+it is the process of transforming the system from one representation from to another at the same abstarction level
+but it preserves the functionality of the system it basically leaves the system at same abstarction level 
+genrally codeing level and instead arrages the code (ie . object orienting the code or structureness of code) in order to fit the paradigm
+
+it deals with modification of source code or data it dosent tend to cahnge the program architechure.
+it focuses on design details and local data structure that is defined in the module.
+
+if the restructuring effort extends beyond module boundries and changes the software architecture 
+it becomes forward engineering.
