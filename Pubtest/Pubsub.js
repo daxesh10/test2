@@ -2,10 +2,10 @@
  * Created by daxes on 8/19/2016.
  */
 
-function Pubsub(){
+function Pubsub() {
 
-    var succ=[];
-    var fails =[];
+    var succ = [];
+    var fails = [];
 
 
     this.then(fn)
@@ -22,33 +22,28 @@ function Pubsub(){
 
     }
 
-    var resolve= function(response,body)
-    {
-        for(var i in suuc)
-        {
-            succ[i](request,body);
+    var resolve = function (response, body) {
+        for (var i in suuc) {
+            succ[i](request, body);
         }
 
     }
 
-    var fail = function(err)
-    {
-        for(var j in fails)
-        {
+    var fail = function (err) {
+        for (var j in fails) {
             fails[j](err);
         }
 
     }
 
-    this.request(url,function(err,response,body){
+    this.request(url, function (err, response, body) {
 
-        if(err)
-        {
+        if (err) {
             fail(err);
         }
-        else{
+        else {
 
-            resolve(response,body);
+            resolve(response, body);
         }
 
 

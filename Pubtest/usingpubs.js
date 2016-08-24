@@ -4,16 +4,15 @@
 
 var pubsub = require('./Pubsub');
 
-var sucsses = function(response,body){
+var sucsses = function (response, body) {
 
-    console.log("############## the response begins here ##################"+response);
-    console.log("############## the body begins here ##################"+body);
+    console.log("############## the response begins here ##################" + response);
+    console.log("############## the body begins here ##################" + body);
 
 }
 
-var failure = function(err)
-{
-    console.log("############# there is error "+err);
+var failure = function (err) {
+    console.log("############# there is error " + err);
     //consoel.log("message:  "+err.message);
 }
 
